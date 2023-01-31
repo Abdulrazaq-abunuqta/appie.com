@@ -851,7 +851,9 @@ footer button {
 @media screen and (max-width: 600px) {
   /* For mobile phones: */
   /* nav-bar */
-
+  * {
+    border: 2px solid #f00;
+  }
   .contenr {
     width: 100%;
     margin: auto;
@@ -914,119 +916,173 @@ footer button {
     text-align: center;
     position: relative;
     left: 111px;
+  }
+
+  .color-about {
+    background-color: #ffff;
+    width: 100%;
+  }
+
+  .how-gilre {
+    display: flex;
+    padding-top: 75px;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+  /* make station */
+
+  .make-sction .make-img img {
+    display: none;
+  }
+
+  .make-sction {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #cccccc;
+  }
+
+  .make-sction .make-titel .make-about .pp-make {
+    color: #000;
+    padding-top: 15px;
+    width: 100%;
+  }
+
+  .grid-about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fa-check-circle {
+    color: #45cc33;
+    position: relative;
+    right: 127px;
+    top: 30px;
+  }
+
+  /* how does it work */
+  .how-fixed {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+
+  .how-fixed .how-icon {
+    width: 80%;
+  }
+
+  /* price */
+
+  .pric-conten {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* 3.10-sponser sction */
+  .sponser-img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-sponser {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+    right: 1px;
+  }
+  .fixed-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vidos-contant .araaw {
+    position: absolute;
+    right: 29px;
+  }
+
+  .vidos-contant .araaw {
+    display: none;
+  }
+
+  .how-videos .img-video {
+    height: 237px;
+    width: 379px;
+  }
+
+  .wh-content .wh-img img {
+    width: 100%;
+  }
+
+  .donlowd-titel img {
+    width: 100%;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  .vidos-contant button {
+    width: 51%;
+    height: 32px;
+    border-radius: 50px;
+    border: 1px solid rgb(122, 115, 115);
+    text-align: center;
+    background-color: #ffff;
+  }
+
+  .img-abdo img {
+    width: 149px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 1px;
+  }
+
+  .feedback-titel {
+    display: block;
+    position: relative;
+    left: 113px;
+    top: -136px;
+    color: #000;
+    margin: 79px;
+  }
+
+  .home-titel input {
+    width: 102%;
+    height: 56px;
+    border-radius: 50px;
+    border: none;
+    border-left: 3px solid #ff3366;
+    box-shadow: 3px 20px 20px 3px #cccccc;
+  }
 }
-      
-.color-about {
-        background-color: #ffff;
-        width: 100%;
-      }
-           
-.how-gilre {
-  display: flex;
-  padding-top: 75px;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  align-content:center;
-  margin: 0 auto;
-  
-}
-
-/* make station */
-
-.make-sction .make-img img {
-  display: none;
-}
-
-.make-sction {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  text-align: center ;
-  width: 80%;
-  margin: 0 auto;
-  background-color:#cccCcc;
-  
-}
-
-
-
-.make-sction .make-titel .make-about .pp-make {
-  color: #000;
-  padding-top: 15px;
-  width: 400px;
-}
-
-
-.grid-about {
-  display: flex;
-  flex-direction: column;
-  flex-wrap:wrap ;
-  align-items: center;
-  text-align: center;
-}
-
-.fa-check-circle {
-  color: #45cc33;
-  position: relative;
-  right: 127px;
-  top: 30px;
-}
-
-/* how does it work */
-.how-fixed{
-  display: flex;
-  flex-direction: column;
-  flex-wrap:wrap ;
-  align-items: center;
-  text-align: center;
-
-}
-
-.how-fixed .how-icon{
-  width: 80%;
-}
-
-/* price */
-
-.pric-conten{
-  display: flex;
-  flex-direction: column;
-  flex-wrap:wrap ;
-  align-items: center;
-  text-align: center;
-
-}
-
-/* 3.10-sponser sction */
-.sponser-img {
-  display: flex;
-  flex-direction: column;
-}
-
-.img-sponser{
-  display: flex;
-  flex-direction: column-reverse;
-  flex-wrap: nowrap;
-  align-items: baseline;
-  justify-content: center;
-  position: relative;
-  right: 1px;
-}
-.fixed-footer{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-}
-
 /*  عبدالرزاق*/
 /*  - الحمدلله الذي بنعمته تتم الصالحات */
 
 /* الدفعة الثالثة */
 
 /* البنيان المرصوص الدفعة 3 */
-
-/* 29 - 1 - 2023  */
+/* 
+29 - 1 - 2023  */
