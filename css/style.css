@@ -851,9 +851,7 @@ footer button {
 @media screen and (max-width: 600px) {
   /* For mobile phones: */
   /* nav-bar */
-  * {
-    border: 2px solid #f00;
-  }
+
   .contenr {
     width: 100%;
     margin: auto;
